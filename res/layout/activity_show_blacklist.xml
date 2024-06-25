@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graybackground"
+    android:orientation="vertical" 
+    
+  >
+
+    <TextView
+        android:id="@+id/txtBLCName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Black List Contacts"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/lvBlackListContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".60" 
+       >
+    </ListView>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+         <Button
+        android:id="@+id/btnDelresponderlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonn"
+        android:text="Delete All" 
+        android:layout_weight=".5"
+        android:textColor="#FFFFFF"
+       />
+
+        
+</LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+    <Button
+            android:id="@+id/btnBack"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+           	android:layout_marginLeft="115dp"
+           	android:background="@drawable/buttonn"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+           />
+</LinearLayout>
+</LinearLayout>

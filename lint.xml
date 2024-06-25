@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ProtectedPermissions" severity="informational" />
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/example/scblocker/CallListener.java" />
+    </issue>
+</lint>

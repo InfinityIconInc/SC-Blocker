@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graybackground"
+    android:orientation="vertical" 
+   
+  >
+ 
+    <TextView
+        android:id="@+id/SmsHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SMS History"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    
+
+    <ListView
+        android:id="@+id/lvSH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" 
+        >
+
+    </ListView>
+ <Button
+        android:id="@+id/btnDelSMSH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All"
+        android:background="@drawable/buttonn"
+        android:textColor="#FFFFFF"       
+         />
+   
+</LinearLayout>

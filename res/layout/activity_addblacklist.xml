@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graybackground"
+    android:orientation="vertical"
+   
+    
+   >
+
+    <TextView
+        android:id="@+id/tvNOC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add BlackList Contact"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+      <Button
+            android:id="@+id/btnAddNumberManually"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:text="Add Number"
+            android:background="@drawable/buttonn"
+        android:textColor="#FFFFFf"
+        android:fontFamily="Times New Roman"
+        
+          />
+       
+       <Button
+            android:id="@+id/btnshowblacklist"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:text="Show Black List"
+            android:background="@drawable/buttonn"
+        android:textColor="#FFFFFf"
+        android:fontFamily="Times New Roman"
+           />
+       
+        </LinearLayout>
+     <ProgressBar
+        android:id="@+id/pbContacts"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <ListView
+        android:id="@+id/lstContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_weight="2" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnBack"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="115dp"
+          android:text="Back" 
+       android:background="@drawable/buttonn"
+        android:textColor="#FFFFFf"
+        android:fontFamily="Times New Roman"/>
+
+</LinearLayout>
+
+</LinearLayout>

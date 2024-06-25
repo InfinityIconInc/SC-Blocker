@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graybackground"
+    android:orientation="vertical"
+   
+    >
+    
+ <EditText
+     android:id="@+id/calltext"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:ems="10"
+     android:inputType="phone"
+     android:textColor="#000000"
+     android:textSize="20sp" >
+       
+    </EditText>
+
+ <Button
+     android:id="@+id/callbtn"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:background="@drawable/buttonn"
+     android:layout_below="@+id/calltext"
+     android:layout_marginTop="40dp"
+     android:text="CALL"
+     android:textSize="25sp" 
+     android:textColor="#FFFFFF"
+        />
+
+ 
+
+</RelativeLayout>
